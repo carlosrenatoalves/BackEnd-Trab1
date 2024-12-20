@@ -1,0 +1,30 @@
+{
+  "name": "loja_entregar",
+  "version": "1.0.0",
+  "description": "Carlos, Abhimael",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "swagger-autogen": "node swagger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosrenatoalves/BackEnd-Trab1.git"
+  },
+  "author": "Carlos Renato Alves de Oliveira Ra:1162934, Abhimael Sidney Setni Rogatti Ra:2618001",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosrenatoalves/BackEnd-Trab1/issues"
+  },
+  "homepage": "https://github.com/carlosrenatoalves/BackEnd-Trab1#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.9",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
